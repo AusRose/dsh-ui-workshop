@@ -1,0 +1,36 @@
+{
+  "name": "dsh-ui-workshop",
+  "version": "0.3.1",
+  "private": true,
+  "description": "Interface workshop for DeepSeek Harness: sidebar rail, workspace archive switch, context ring, and model panel.",
+  "type": "module",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "src",
+    "build.mjs",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "license": "MIT"
+}

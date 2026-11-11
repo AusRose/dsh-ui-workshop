@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="UI Workshop">
+  <rect x="3" y="4" width="4" height="16" rx="1.6" fill="#8A8F98"/>
+  <rect x="9.5" y="4" width="11.5" height="4" rx="1.4" fill="#4D6BFE"/>
+  <rect x="9.5" y="9.5" width="11.5" height="3" rx="1.2" fill="#C9CDD4"/>
+  <rect x="9.5" y="14" width="8.5" height="3" rx="1.2" fill="#C9CDD4"/>
+  <rect x="9.5" y="18.5" width="5" height="1.5" rx="0.75" fill="#C9CDD4"/>
+</svg>

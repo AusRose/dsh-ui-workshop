@@ -1,0 +1,9 @@
+# dsh-ui-workshop — one additive row over the shipped Web composition.
+#
+# The bundle carries no Host behaviour: the whole feature is the browser half,
+# which installs a stylesheet. Removing the bundle restores the shipped layout on
+# the next start.
+
+- insert:
+    - id: ui-workshop
+      name: 'dsh-ui-workshop'
